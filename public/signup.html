@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/8cadfe48d1.js" crossorigin="anonymous"></script>
+  <title>Morrishmade</title>
+
+  <style>
+    html,
+    body {
+      position: absolute;
+      margin: 0;
+      width: 100%;
+      height: 100%;
+      background-color: lightgrey;
+
+    }
+
+    h1 {
+      font-size: 2.3rem;
+      color: black;
+      position: absolute;
+      top: 4%;
+      left: 0%;
+      font-family: arial;
+    }
+
+    h2 {
+      font-size: 2.5rem;
+      color: black;
+      position: absolute;
+      top: 2%;
+      left: 43%;
+      font-family: arial;
+    }
+
+    h3 {
+      font-size: 1.5rem;
+      position: absolute;
+      color: black;
+      top: 4%;
+      left: 65%;
+      font-family: arial;
+    }
+
+    h4 {
+      font-size: 1.5rem;
+      position: absolute;
+      color: black;
+      top: 4%;
+      left: 72%;
+      font-family: arial;
+    }
+
+    h5 {
+      font-size: 1.5rem;
+      position: absolute;
+      color: black;
+      top: 4%;
+      left: 80%;
+      font-family: arial;
+    }
+
+    h6 {
+      font-size: 1.5rem;
+      position: absolute;
+      color: black;
+      top: 4%;
+      left: 86%;
+      font-family: arial;
+    }
+
+    h7 {
+      font-size: 1.5rem;
+      position: absolute;
+      color: black;
+      top: 3%;
+      left: 3%;
+      font-family: arial;
+    }
+
+    h8 {
+      font-size: 1.5rem;
+      position: absolute;
+      color: black;
+      top: 3%;
+      left: 14%;
+      font-family: arial;
+    }
+
+    h9 {
+      font-size: 1.5rem;
+      position: absolute;
+      color: black;
+      top: 3%;
+      left: 22%;
+      font-family: arial;
+    }
+
+    h10 {
+      font-size: 1.5rem;
+      position: absolute;
+      color: black;
+      top: 3%;
+      left: 34%;
+      font-family: arial;
+    }
+
+    h11 {
+      font-size: 1.5rem;
+      position: absolute;
+      color: black;
+      top: 30%;
+      left: 36%;
+      font-family: arial;
+    }
+
+    h12 {
+      font-size: 1.5rem;
+      position: absolute;
+      color: black;
+      top: 42%;
+      left: 38%;
+      font-family: arial;
+    }
+
+    h13 {
+      font-size: 1.5rem;
+      position: absolute;
+      color: black;
+      top: 50%;
+      left: 38%;
+      font-family: arial;
+    }
+
+    h14 {
+      font-size: 1.5rem;
+      position: absolute;
+      color: black;
+      top: 58%;
+      left: 38%;
+      font-family: arial;
+    }
+
+    h15 {
+      font-size: 1.4rem;
+      position: absolute;
+      color: black;
+      top: 66%;
+      left: 38%;
+      font-family: arial;
+    }
+
+    h16 {
+      font-size: 1.0rem;
+      position: absolute;
+      color: black;
+      top: 75%;
+      left: 41%;
+      font-family: arial;
+    }
+
+    h17 {
+      font-size: 1.5rem;
+      position: absolute;
+      color: black;
+      top: 82%;
+      left: 42%;
+      font-family: arial;
+    }
+
+    h18 {
+      font-size: 1.3rem;
+      position: absolute;
+      color: black;
+      top: 20%;
+      left: 20%;
+      font-family: arial;
+    }
+
+    h19 {
+      font-size: 1.3rem;
+      position: absolute;
+      color: black;
+      top: 95%;
+      left: 20%;
+      font-family: arial;
+    }
+
+    h20 {
+      font-size: 1.3rem;
+      position: absolute;
+      color: black;
+      top: 92%;
+      left: 35%;
+      font-family: arial;
+    }
+  </style>
+
+
+</head>
+
+<body>
+
+  <script id="replace_with_navbar" src="nav.js"></script>
+  <h18>______________________________________________________________</h18>
+  <h19>________________________________________________________________</h19>
+
+
+  <main class="text-center">
+    <form class="form-signin" method="post" action="signup">
+      <div id="message">
+        <!-- This element's contents will be replaced with your component. -->
+      </div>
+      <h11 class="h3 mb-3 font-weight-normal">Create a new account</h11>
+      <h12> <input class="form-control" type="text" name="fullname" placeholder="Full Name" required autofocus> </h12>
+      <h13> <input class="form-control" type="text" name="prefer" placeholder="Preferred Name" required> </h13>
+      <h14> <input class="form-control" type="text" name="username" placeholder="User name or email address" required>
+      </h14>
+      <h15> <input class="form-control" type="password" name="password" id="password" placeholder="Password" required>
+      </h15>
+
+      <div class="checkbox mb-3">
+        <h16> <label><input type="checkbox" onclick="showPassword()"> Show password</label> </h16>
+      </div>
+      <h17> <button class="btn btn-lg btn-primary btn-block" type="submit">Sign up</button> </h17>
+
+
+      <h20> Already have an account? <a href="login">Log In</a> </h20>
+      </div>
+
+    </form>
+  </main>
+
+  <!-- Load our React component. -->
+  <script src="/javascripts/signup.js" type="text/babel"></script>
+  <script src="/javascripts/showPassword.js"></script>
+</body>
+
+</html>
